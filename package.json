@@ -1,0 +1,13 @@
+{
+  "name": "post2_github-checks",
+  "version": "0.0.1",
+  "author": "Anja Kammer",
+  "license": "GPL-3.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "request": "2.88.0"
+  }
+}
