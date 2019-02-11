@@ -11,7 +11,7 @@ const apiRequest = (url, token, appName) => request({
   method: 'POST'
 })
 
-apiRequest(process.env.APP_NAME, process.env.TOKEN, process.env.URL)
+apiRequest(process.env.URL, process.env.TOKEN, process.env.APP_NAME)
   .on('response', function (response) {
     console.log(response.statusCode)
     console.log(response.statusMessage)
